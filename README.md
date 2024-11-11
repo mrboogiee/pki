@@ -151,6 +151,8 @@ EOF
 
 ### Signing profiles
 
+> **_NOTE:_** The following is a direct copy from the blog post by [@vbouchaud](https://github.com/vbouchaud)
+
 Then I have to define the profiles my CAs will use. There are a few things to consider now even if it won’t be used until I can host the PKI:
 
 where my CA will be hosted;
@@ -167,7 +169,7 @@ I chose to serve the PKI under the domain pki.valhall.local. Here is a list of t
 
 Those information will later be available as extensions inside the signed certificate. Let’s take a look at the certificate behind google.com:
 
-<!-- ```bash
+```bash
 $ echo | \
   openssl s_client \
     -showcerts \
@@ -735,7 +737,7 @@ And after regenerating the CRL file, `openssl crl` outputs:
 # 42:df:ef:c2:6f:17:6b:3c
 ```
 
-We know from both methods that the certificate is indeed revoked. -->
+We know from both methods that the certificate is indeed revoked.
 
 ## Sources
 
