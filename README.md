@@ -151,7 +151,7 @@ EOF
 
 ### Signing profiles
 
-> **_NOTE:_** The following is a direct copy from the blog post by [@vbouchaud](https://github.com/vbouchaud)
+> **_NOTE:_** The following is a direct copy from the blog post by [@vbouchaud](https://github.com/vbouchaud) on [bouchard.org](https://bouchaud.org/blog/en/posts/initializing-root-intermediate-ca-with-cfssl/)
 
 Then I have to define the profiles my CAs will use. There are a few things to consider now even if it won’t be used until I can host the PKI:
 
