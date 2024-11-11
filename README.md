@@ -1,5 +1,7 @@
 # PKI
 
+> **_WORK IN PROGRESS_** ! This documentation is work in progress !
+
 ## Introduction
 
 I set out to create a simple PKI system that would allow me to create a CA, sign certificates, and revoke certificates. Through several blogs, comments and other resources, I was able to piece together a working system. This is a simple implementation and should not be used in a production environment. This is a learning exercise and should be treated as such. My environment ended up running in a kubernetes cluster as I have one in my home lab. This is not necessary and can be run on any system that has the necessary tools installed.
